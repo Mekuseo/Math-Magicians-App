@@ -27,7 +27,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src='./src/images/Screenshot - 2023-02-14T142425.314.png' alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Microverse README Template</b></h3>
@@ -60,11 +60,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Math magicians <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+> A calculator app is a software application that allows users to perform mathematical calculations on a digital device such as a smartphone, tablet, or computer..
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -72,26 +70,7 @@ After you're finished please remove all the comments and instructions!
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
+<a href="https://www.w3.org/html/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="55" height="55"/></a><a href="https://www.w3schools.com/css/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="55" height="55"/></a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="55" height="55"/></a><a href='#' alt='#'><img src='./src/images/react image.png' height='55' width='55'></a>
 
 <!-- Features -->
 
@@ -99,9 +78,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Use functional components**
+- **Once the Calculator is ready, import it and use it in your main component**
+- **Test it in the browser; it should render without problems**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,85 +96,72 @@ After you're finished please remove all the comments and instructions!
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
+## ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+To get a local copy up and running, follow these steps
 
-To get a local copy up and running, follow these steps.
-
+- Run npm install
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- [ ] A PC running any operating system like Windows, Linux, or MacOS
+- [ ] An Internet connection
+- [ ] Git installed
+- [ ] Webpack installed
+- [ ] Knowledge of some basic Git commands
 
 ### Setup
 
-Clone this repository to your desired folder:
-
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+1. Download the **Zip** file or clone the repo with:
+```bash
+git clone https://github.com/Mekuseo/Disney-Characters---JS-Capstone.git
 ```
---->
+2. To access cloned directory run:
+```bash
+cd JS.capstone-project
+```
+3. Open it with the live server
 
 ### Install
-
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
 ```
---->
+npm install
+```
 
 ### Usage
 
-To run the project, execute the following command:
+Start the server
 
-<!--
-Example command:
-
-```sh
-  rails server
 ```
---->
+npm run start
+```
 
-### Run tests
+### Run tests <a name="run-tests"></a>
 
 To run tests, run the following command:
 
-<!--
-Example command:
+npm test
 
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
+To run Stylelint and ESLint tests, run the following commands respectively:
 
 ```
- -->
+npx stylelint "**/*.{css,scss}"
+```
+
+```
+npx eslint .
+```
+
+### Deployment <a name="deployment"></a>
+
+To deploy this project run
+
+```
+npm run deploy
+```
+
+- GitHub Pages was used to deploy this website
+- For more information about publishing sources, see "[About github page](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)"
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -203,19 +169,12 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Kanu Chukwuemeka**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Mekuseo](https://github.com/Mekuseo)
+- Twitter: [@fullstack_pison](https://twitter.com/fullstack_pison)
+- LinkedIn: [@chukwuemekakanu](https://www.linkedin.com/in/chukwuemekakanu)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -225,9 +184,9 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Import the files in your Calculator component.**
+- [ ] **Implement the event handlers**
+- [ ] **use state and props**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -237,7 +196,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Mekuseo/Math-Magicians-Setup/tree/calculatorUI/issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -262,20 +221,6 @@ I would like to thank...
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
