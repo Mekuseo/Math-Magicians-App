@@ -1,118 +1,29 @@
-/* eslint-disable no-unused-vars */
-import React from 'react';
-import './UI.css';
+import React, { useState } from 'react';
+import Display from './Display';
+import ButtonPanel from './ButtonPanel';
+import calculate from './logic/Calculate';
+import './Calculator.css';
 
-class Calculator extends React.Component {
-  constructor(props) {
-    super();
-  }
+function Calculator() {
+  const [state, setState] = useState({
+    total: null,
+    next: null,
+    operation: null,
+  });
 
-  render() {
-    return (
-      <div className="calculator">
-        <div className="calculator__display">0</div>
-        <div className="calculator__keys">
-          <button
-            type="submit"
-            className="calculator__key calculator__key--operator"
-            value="AC"
-          >
-            AC
-          </button>
-          <button
-            type="submit"
-            className="calculator__key calculator__key--operator"
-            value="+/-"
-          >
-            +/-
-          </button>
-          <button
-            type="submit"
-            className="calculator__key calculator__key--operator"
-            value="%"
-          >
-            %
-          </button>
-          <button
-            type="submit"
-            className="calculator__key calculator__key--operator"
-            value="/"
-          >
-            &divide;
-          </button>
-          <button type="submit" className="calculator__key" value="7">
-            7
-          </button>
-          <button type="submit" className="calculator__key" value="8">
-            8
-          </button>
-          <button type="submit" className="calculator__key" value="9">
-            9
-          </button>
-          <button
-            type="submit"
-            className="calculator__key calculator__key--operator"
-            value="X"
-          >
-            X
-          </button>
-          <button type="submit" className="calculator__key" value="4">
-            4
-          </button>
-          <button type="submit" className="calculator__key" value="5">
-            5
-          </button>
-          <button type="submit" className="calculator__key" value="6">
-            6
-          </button>
-          <button
-            type="submit"
-            className="calculator__key calculator__key--operator"
-            value="-"
-          >
-            -
-          </button>
-          <button type="submit" className="calculator__key" value="1">
-            1
-          </button>
-          <button type="submit" className="calculator__key" value="2">
-            2
-          </button>
-          <button type="submit" className="calculator__key" value="3">
-            3
-          </button>
-          <button
-            type="submit"
-            className="calculator__key calculator__key--operator"
-            value="+"
-          >
-            +
-          </button>
-          <button
-            type="submit"
-            className="calculator__key calculator__key--zero"
-            value="0"
-          >
-            0
-          </button>
-          <button
-            type="submit"
-            className="calculator__key calculator__key--decimal"
-            value="."
-          >
-            .
-          </button>
-          <button
-            type="submit"
-            className="calculator__key calculator__key--equal"
-            value="="
-          >
-            =
-          </button>
-        </div>
-      </div>
-    );
-  }
+  const handleClick = (buttonName) => {
+    setState((prevState) => calculate(prevState, buttonName));
+  };
+
+  const { total, next } = state;
+  const displayValue = next || total || '0';
+
+  return (
+    <div className="component-app">
+      <Display value={displayValue} />
+      <ButtonPanel clickHandler={handleClick} />
+    </div>
+  );
 }
 
 export default Calculator;

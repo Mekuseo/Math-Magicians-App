@@ -1,0 +1,24 @@
+.component-button {
+  background-color: #f2f2f2;
+  font-size: 2rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  padding: 20px;
+  width: 25%;
+  box-sizing: border-box;
+}
+
+.component-button.orange {
+  background-color: #ff9800;
+  color: #fff;
+}
+
+.component-button.wide {
+  width: 70%;
+}
+
+.component-button:not(.wide):not(:last-child) {
+  border: 1px solid #c1c1c1;
+}
