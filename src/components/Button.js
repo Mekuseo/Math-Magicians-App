@@ -20,7 +20,7 @@ const Button = (props) => {
       className={className.join(' ').trim()}
       onClick={handleClick}
       type="button"
-      style={{ backgroundColor: props.color }}
+      // style={{ backgroundColor: props.color }}
     >
       {props.name}
     </button>
@@ -32,13 +32,13 @@ Button.propTypes = {
   clickHandler: PropTypes.func.isRequired,
   orange: PropTypes.bool,
   wide: PropTypes.bool,
-  color: PropTypes.string,
+  // color: PropTypes.string,
 };
 
 Button.defaultProps = {
   orange: false,
   wide: false,
-  color: '#f0f0f0',
+  // color: '#f0f0f0',
 };
 
 export default Button;
