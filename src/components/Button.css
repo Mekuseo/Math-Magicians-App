@@ -22,4 +22,3 @@
 .component-button:not(.wide):not(:last-child) {
   border: 1px solid #c1c1c1;
 }
-
