@@ -13,7 +13,7 @@
 
 # 📗 Table of Contents
 
-- [Disney Characters App ](#disney-characters-app-)
+- [Math Magic App ](#Maths-Magic-app)
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 Disney Characters ](#-disney-characters-)
   - [🛠 Built With ](#-built-with-)
