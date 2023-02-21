@@ -1,11 +1,36 @@
 <a name="readme-top"></a>
 
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
+
+Modify this file to match your project and remove sections that don't apply.
+
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+OPTIONAL SECTIONS:
+- FAQ
+
+After you're finished please remove all the comments and instructions!
+-->
+
 <div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src='./src/images/Screenshot - 2023-02-21T222012.170.png' alt="logo" width="140"  height="auto" />
+  <br/>
 
-# Maths-Magic-App <a name="about-project"></a>
-
-![Maths-Magic-App](./src/images/Screenshot%20-%202023-02-21T222012.170.png)
-
+  <h3><b>Microverse README Template</b></h3>
 
 </div>
 
@@ -13,66 +38,69 @@
 
 # 📗 Table of Contents
 
-- [Math Magic App ](#Maths-Magic-app)
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 Disney Characters ](#-disney-characters-)
-  - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
-  - [💻 Getting Started ](#-getting-started-)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-    - [Install](#install)
-    - [Usage](#usage)
-    - [Run tests ](#run-tests-)
-    - [Deployment ](#deployment-)
-  - [👥 Authors ](#-authors-)
-  - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [📝 License ](#-license-)
-
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖  Maths-Magic-App <a name="about-project"></a>
+# 📖 Math magicians <a name="about-project"></a>
 
-Math Magicians is an educational app designed to help children develop their math skills in a fun and interactive way
+> A calculator app is a software application that allows users to perform mathematical calculations on a digital device such as a smartphone, tablet, or computer..
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- [ ] HTML5
-- [ ] CSS3
-- [ ] JavaScript
-- [ ] React
+> Describe the tech stack and include only the relevant sections that apply to your project.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<a href="https://www.w3.org/html/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="55" height="55"/></a><a href="https://www.w3schools.com/css/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="55" height="55"/></a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="55" height="55"/></a><a href='#' alt='#'><img src='./src/images/react image.png' height='55' width='55'></a>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- [ ] **navigation links for all 3 routes are displayed on each page and routs correctly when clicked**
-- [ ] **Generate random maths quotes from a database**
-- [ ] **Has a fully functional calculator that solves basic maths problem**
+> Describe between 1-3 key features of the application.
+
+- **Use functional components**
+- **Once the Calculator is ready, import it and use it in your main component**
+- **Test it in the browser; it should render without problems**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
+
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-To see the demo version, you can <a href="https://mekuseo.github.io/Math-Magicians-App/"> Click here </a>
+> Add a link to your deployed project.
+
+- [Live Demo Link][(https://yourdeployedapplicationlink.com](https://mekuseo.github.io/Math-Magicians-Setup/dist))
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
+## ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+To get a local copy up and running, follow these steps
 
-
+- Run npm install
 ### Prerequisites
 
 In order to run this project you need:
@@ -80,18 +108,18 @@ In order to run this project you need:
 - [ ] A PC running any operating system like Windows, Linux, or MacOS
 - [ ] An Internet connection
 - [ ] Git installed
-- [ ] npm installed
+- [ ] Webpack installed
 - [ ] Knowledge of some basic Git commands
 
 ### Setup
 
 1. Download the **Zip** file or clone the repo with:
 ```bash
-git clone https://github.com/Mekuseo/Math-Magicians-App.git
+git clone https://github.com/Mekuseo/Disney-Characters---JS-Capstone.git
 ```
 2. To access cloned directory run:
 ```bash
-cd Math-Magicians-App
+cd JS.capstone-project
 ```
 3. Open it with the live server
 
@@ -105,7 +133,7 @@ npm install
 Start the server
 
 ```
-npm start
+npm run start
 ```
 
 ### Run tests <a name="run-tests"></a>
@@ -154,41 +182,51 @@ npm run deploy
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Improve design**
-- [ ] **Generate more quotes from an external api**
-- [ ] **Add more features to the calculator**
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **Import the files in your Calculator component.**
+- [ ] **Implement the event handlers**
+- [ ] **use state and props**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- CONTRIBUTING -->
+
 ## 🤝 Contributing <a name="contributing"></a>
 
-To open Issue, you can <a href="https://github.com/Mekuseo/Math-Magicians-App/issues"> Click here </a>
+Contributions, issues, and feature requests are welcome!
 
+Feel free to check the [issues page](https://github.com/Mekuseo/Math-Magicians-Setup/tree/calculatorUI/issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+> Write a message to encourage readers to support your project
+
+If you like this project...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+> Give credit to everyone who inspired your codebase.
 
-I would like to thank - [ Microverse]
- **![](https://img.shields.io/badge/Microverse-blueviolet)**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
-## ⭐️ Show your support <a name="support"></a>
-
-<!-- > Write a message to encourage readers to support your project -->
-HAppy to have you here! If you like this project please Give us a ⭐️ !
-Thank you so much!
+I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Mekuseo/Disney-Characters---JS-Capstone/blob/dev/MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
