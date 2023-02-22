@@ -36,7 +36,7 @@ function Calculator() {
               <div className="calculator-container">
                 <h1>Let us do Some Maths</h1>
                 <div className="calculator-display">
-                  <Display value={displayValue} />
+                  <Display value={displayValue} data-testid="display" />
                   <ButtonPanel clickHandler={handleClick} />
                 </div>
               </div>
