@@ -229,7 +229,10 @@ exports[`renders correctly 2`] = `
 exports[`renders correctly 3`] = `
 <div
   className="display"
-/>
+  data-testid="display"
+>
+  123
+</div>
 `;
 
 exports[`renders correctly 4`] = `

@@ -21,7 +21,7 @@ it('renders correctly', () => {
 
 it('renders correctly', () => {
   const tree = renderer
-    .create(<Display>123</Display>)
+    .create(<Display value="123" />)
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
