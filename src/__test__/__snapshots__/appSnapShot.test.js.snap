@@ -1,0 +1,298 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="calculator-page"
+>
+  <div
+    className="navbar"
+  >
+    <h1
+      className="nav-header"
+    >
+      Math Magicians
+    </h1>
+    <ul
+      className="nav-list"
+    >
+      <li
+        className="border-line"
+      >
+        <a
+          href="/home"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </li>
+      <li
+        className="border-line"
+      >
+        <a
+          href="/calculator"
+          onClick={[Function]}
+        >
+          Calculator
+        </a>
+      </li>
+      <li>
+        <a
+          href="/quote"
+          onClick={[Function]}
+        >
+          Quote
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div
+    className="home-page"
+  >
+    <h1
+      className="header"
+    >
+      Math Magicians
+    </h1>
+    <p
+      className="description"
+    >
+      Math Magicians is a mobile application designed to help users improve their mathematical skills through a fun and engaging gaming experience. The app features a variety of math games that challenge users to solve problems quickly and accurately, with increasing difficulty as they progress. The games include basic arithmetic operations such as addition, subtraction, multiplication, and division, as well as more advanced concepts such as algebra and geometry. The app offers a range of game modes, including timed challenges, puzzle-based games, and multiplayer options, allowing users to compete against friends and other players from around the world. One of the key features of Math Magicians is its adaptive learning algorithm, which adjusts the difficulty of the games based on the user's performance. This ensures that the user is always challenged, but not overwhelmed, as they progress through the app. The app also includes a variety of customization options, allowing users to personalize their experience with different themes, backgrounds, and avatars. Users can also track their progress and performance through detailed analytics and performance reports. Overall, Math Magicians is a fun and effective way to improve your mathematical skills, whether you're a student looking to improve your grades, an adult seeking to sharpen your mental math skills, or simply someone who enjoys a good challenge.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`renders correctly 2`] = `
+<div
+  className="calculator-container"
+>
+  <div
+    className="component-button-panel"
+  >
+    <div
+      className="component-button-row"
+    >
+      <button
+        className="component-button"
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        className="component-button"
+        onClick={[Function]}
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        className="component-button"
+        onClick={[Function]}
+        type="button"
+      >
+        %
+      </button>
+      <button
+        className="component-button orange"
+        onClick={[Function]}
+        type="button"
+      >
+        /
+      </button>
+    </div>
+    <div
+      className="component-button-row"
+    >
+      <button
+        className="component-button"
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+      <button
+        className="component-button"
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+      <button
+        className="component-button"
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+      <button
+        className="component-button orange"
+        onClick={[Function]}
+        type="button"
+      >
+        *
+      </button>
+    </div>
+    <div
+      className="component-button-row"
+    >
+      <button
+        className="component-button"
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+      <button
+        className="component-button"
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+      <button
+        className="component-button"
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+      <button
+        className="component-button orange"
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+    </div>
+    <div
+      className="component-button-row"
+    >
+      <button
+        className="component-button"
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+      <button
+        className="component-button"
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+      <button
+        className="component-button"
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+      <button
+        className="component-button orange"
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+    </div>
+    <div
+      className="component-button-row"
+    >
+      <button
+        className="component-button  wide"
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+      <button
+        className="component-button"
+        onClick={[Function]}
+        type="button"
+      >
+        .
+      </button>
+      <button
+        className="component-button orange"
+        onClick={[Function]}
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders correctly 3`] = `
+<div
+  className="display"
+  data-testid="display"
+>
+  123
+</div>
+`;
+
+exports[`renders correctly 4`] = `
+<div
+  className="calculator-page"
+>
+  <div
+    className="navbar"
+  >
+    <h1
+      className="nav-header"
+    >
+      Math Magicians
+    </h1>
+    <ul
+      className="nav-list"
+    >
+      <li
+        className="border-line"
+      >
+        <a
+          href="/home"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </li>
+      <li
+        className="border-line"
+      >
+        <a
+          href="/calculator"
+          onClick={[Function]}
+        >
+          Calculator
+        </a>
+      </li>
+      <li>
+        <a
+          href="/quote"
+          onClick={[Function]}
+        >
+          Quote
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div
+    className="home-page"
+  >
+    <h1
+      className="header"
+    >
+      Math Magicians
+    </h1>
+    <p
+      className="description"
+    >
+      Math Magicians is a mobile application designed to help users improve their mathematical skills through a fun and engaging gaming experience. The app features a variety of math games that challenge users to solve problems quickly and accurately, with increasing difficulty as they progress. The games include basic arithmetic operations such as addition, subtraction, multiplication, and division, as well as more advanced concepts such as algebra and geometry. The app offers a range of game modes, including timed challenges, puzzle-based games, and multiplayer options, allowing users to compete against friends and other players from around the world. One of the key features of Math Magicians is its adaptive learning algorithm, which adjusts the difficulty of the games based on the user's performance. This ensures that the user is always challenged, but not overwhelmed, as they progress through the app. The app also includes a variety of customization options, allowing users to personalize their experience with different themes, backgrounds, and avatars. Users can also track their progress and performance through detailed analytics and performance reports. Overall, Math Magicians is a fun and effective way to improve your mathematical skills, whether you're a student looking to improve your grades, an adult seeking to sharpen your mental math skills, or simply someone who enjoys a good challenge.
+    </p>
+  </div>
+</div>
+`;
