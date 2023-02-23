@@ -1,7 +1,7 @@
 import React from 'react';
 import '@testing-library/jest-dom/extend-expect';
 import { render } from '@testing-library/react';
-import Display from '../Display';
+import Display from '../components/Display';
 
 describe('Display', () => {
   it('renders the value passed as prop', () => {

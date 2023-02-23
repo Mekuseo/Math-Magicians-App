@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import operate from '../logic/Operate';
+import operate from '../components/logic/Operate';
 
 describe('operate', () => {
   it('adds two numbers', () => {
