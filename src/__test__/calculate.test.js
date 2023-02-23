@@ -1,4 +1,4 @@
-import calculate from "../components/logic/Calculate";
+import calculate from '../components/logic/Calculate';
 
 const testcases = [
   [{ total: '20', next: '10', operation: '+' }, 'AC', { total: null, next: null, operation: null }],
@@ -25,7 +25,7 @@ const testcases = [
 
 describe.each(testcases)('testing calculate logic:', (inputObj, btnName, expected) => {
   it(`testing calculate logic for ${btnName} press:`, () => {
-    const result = calculate(inputObj,btnName);
+    const result = calculate(inputObj, btnName);
     expect(result).toStrictEqual(expected);
   });
 });

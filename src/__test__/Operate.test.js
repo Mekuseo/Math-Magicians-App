@@ -1,4 +1,3 @@
-import { render, screen } from '@testing-library/react';
 import operate from '../components/logic/Operate';
 
 describe('operate', () => {
@@ -18,7 +17,7 @@ describe('operate', () => {
     expect(operate(10, 2, '/')).toBe('5');
   });
 
-  it("throws an error when operation is unknown", () => {
+  it('throws an error when operation is unknown', () => {
     expect(() => operate(1, 2, 'unknown')).toThrow("Unknown operation 'unknown'");
   });
 
