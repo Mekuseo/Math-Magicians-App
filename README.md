@@ -3,9 +3,7 @@
 <!--
 HOW TO USE:
 This is an example of how you may give instructions on setting up your project locally.
-
 Modify this file to match your project and remove sections that don't apply.
-
 REQUIRED SECTIONS:
 - Table of Contents
 - About the Project
@@ -18,16 +16,18 @@ REQUIRED SECTIONS:
 - Show your support
 - Acknowledgements
 - License
-
 OPTIONAL SECTIONS:
 - FAQ
-
 After you're finished please remove all the comments and instructions!
 -->
-<div>
- <img alt='bookstore screenshot' href='https://drive.google.com/file/d/1n7AybKI2Vu-CBD_JTZked11Nkrrm37qH/view?usp=share_link' width="140"  height="auto" />
+
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src='./src/images/Screenshot - 2023-02-21T222012.170.png' alt="logo" width="140"  height="auto" />
   <br/>
+
   <h3><b>Microverse README Template</b></h3>
+
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -56,35 +56,24 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Book Store <a name="about-project"></a>
+# 📖 Math magicians <a name="about-project"></a>
 
-**Book Store** is a Single page application. It is developed using React Library. It allows users to add new book, edit book, remove book and to manage their status on the book reading progress.
-
+> A calculator app is a software application that allows users to perform mathematical calculations on a digital device such as a smartphone, tablet, or computer..
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://nodejs.com/">Node.js</a></li>
-  </ul>
-</details>
+> Describe the tech stack and include only the relevant sections that apply to your project.
+<a href="https://www.w3.org/html/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="55" height="55"/></a><a href="https://www.w3schools.com/css/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="55" height="55"/></a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="55" height="55"/></a><a href='#' alt='#'><img src='./src/images/react image.png' height='55' width='55'></a>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[Display book items]**
-- **[Add new Book item]**
-- **[Delete Book item]**
+> Describe between 1-3 key features of the application.
+- **Use functional components**
+- **Once the Calculator is ready, import it and use it in your main component**
+- **Test it in the browser; it should render without problems**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,94 +81,56 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](-)
+> Add a link to your deployed project.
+- [Live Demo Link][(https://yourdeployedapplicationlink.com](https://mekuseo.github.io/Math-Magicians-Setup/dist))
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
+## ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+To get a local copy up and running, follow these steps
 
+- Run npm install
 ### Prerequisites
 
 In order to run this project you need:
 
-```sh
- node js installed
- Git
- VSCODE editor
- Installed Web browser
-```
+- [ ] A PC running any operating system like Windows, Linux, or MacOS
+- [ ] An Internet connection
+- [ ] Git installed
+- [ ] Webpack installed
+- [ ] Knowledge of some basic Git commands
 
 ### Setup
 
-Clone this repository to your desired folder:
-
-```sh
-  cd my-folder
-  git clone https://github.com/Mekuseo/bookstore-app.git
+1. Download the **Zip** file or clone the repo with:
+```bash
+git clone https://github.com/Mekuseo/Disney-Characters---JS-Capstone.git
 ```
-
-### Install
-
-Install this project with:
-
-```sh
-  cd my-project
-  npm install
+2. To access cloned directory run:
+```bash
+cd JS.capstone-project
 ```
+3. Open it with the live server
 
-### Usage
-
-To run the project, execute the following command:
-
-```sh
-  npm start
-```
-
-### Run tests
-
-To run tests, run the following command:
-
-```sh
-  npm test
-```
-
-### Deployment
-
-You can deploy this project using Github pages or renders.
-
-<!--
-Example:
-
-```sh
+	@@ -105,7 +133,7 @@ npm install
+Start the server
 
 ```
- -->
+npm run start
+```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
-
-## 👥 Authors <a name="authors"></a>
-
-👤 **Chukwuemeka**
-
-- GitHub: [@mekuseo](https://github.com/mekuseo)
-- Twitter: [@pison_fullstack](https://twitter.com/pison_fullstack)
-- LinkedIn: [@chukwuemekakanu](https://www.linkedin.com/in/chukwuemekakanu/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
+### Run tests <a name="run-tests"></a>
+	@@ -154,42 +182,52 @@ npm run deploy
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add Book reading progress bar]**
-- [ ] **[Full website development]**
-- [ ] **[Test and Deploy]**
+> Describe 1 - 3 features you will add to the project.
+- [ ] **Import the files in your Calculator component.**
+- [ ] **Implement the event handlers**
+- [ ] **use state and props**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -189,7 +140,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/mekuseo/bookstore-app/issues/).
+Feel free to check the [issues page](https://github.com/Mekuseo/Math-Magicians-Setup/tree/calculatorUI/issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -197,7 +148,8 @@ Feel free to check the [issues page](https://github.com/mekuseo/bookstore-app/is
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please give a⭐️ and share with your friends.
+> Write a message to encourage readers to support your project
+If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -205,22 +157,19 @@ If you like this project please give a⭐️ and share with your friends.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank @Microverse.
+> Give credit to everyone who inspired your codebase.
+I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-- **How to install redux toolkit?**
-
-  - `npm i react-redux @reduxjs/toolkit`
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- FAQ (optional) -->
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/mekuseo/bookstore-app/blob/dev/LICENSE) licensed.
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
